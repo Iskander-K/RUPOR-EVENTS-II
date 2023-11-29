@@ -352,35 +352,35 @@ span {
   left: 97px;
   top: 97px;
 }
-.label-M,
-.label-W {
+.label-m,
+.label-w {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
-.M-percent,
-.W-percent {
+.m-percent,
+.w-percent {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   opacity: 30%;
 }
-.label-W {
+.label-w {
   position: absolute;
   left: 43px;
   top: 82px;
 }
-.label-M {
+.label-m {
   position: absolute;
   right: 75px;
   bottom: 117px;
 }
-.W-percent {
+.w-percent {
   position: absolute;
   left: 65px;
   top: 82px;
 }
-.M-percent {
+.m-percent {
   position: absolute;
   right: 25px;
   bottom: 117px;
@@ -458,7 +458,7 @@ span {
   font-size: 44px;
   font-weight: 300;
   margin-top: 157px;
-  left: 142px;
+  left: 95px;
   margin-bottom: 183px;
 }
 .main__btn {
@@ -485,7 +485,7 @@ span {
   width: 1170px;
   gap: 11px;
   flex-wrap: wrap;
-  left: 142px;
+  left: 96px;
   list-style: none;
 }
 .searches {
@@ -494,7 +494,7 @@ span {
   font-size: 44px;
   font-weight: 300;
   margin-top: 516px;
-  left: 142px;
+  left: 96px;
   margin-bottom: 183px;
 }
 .party-list {
@@ -502,7 +502,7 @@ span {
   position: absolute;
   display: flex;
 
-  left: 142px;
+  left: 96px;
   list-style: none;
 }
 .main__btn-2 {
@@ -528,7 +528,7 @@ span {
   margin-top: 630px;
   position: absolute;
 
-  left: 745px;
+  left: 698px;
   list-style: none;
 }
 .reference-search {
@@ -539,16 +539,16 @@ span {
   font-size: 23px;
   font-weight: 400;
   margin-top: 532px;
-  right: 155px;
+  right: 185px;
   margin-bottom: 183px;
   width: 228px;
 }
 .arrow {
-  width: 13px;
+  width: 12px;
   height: 12px;
   position: absolute;
 
-  left: 540px;
+  left: 555px;
   bottom: 425px;
 }
 
@@ -560,7 +560,7 @@ span {
   font-size: 44px;
   font-weight: 300;
   margin-top: 1873px;
-  left: 142px;
+  left: 95px;
 }
 
 .resources-list {
@@ -568,7 +568,7 @@ span {
   position: absolute;
   display: flex;
   text-align: center;
-  left: 142px;
+  left: 96px;
 }
 .res-list {
   display: flex;
@@ -624,7 +624,7 @@ span {
   line-height: 35px;
   padding: 11px 30px;
   gap: 11px;
-  width: 1153px;
+  width: 1170px;
   margin-bottom: 11px;
   top: 750px;
 }
@@ -673,7 +673,7 @@ span {
   font-size: 44px;
   font-weight: 300;
   top: 2600px;
-  left: 142px;
+  left: 96px;
   width: 1012px;
 }
 .block-announcement-1,
@@ -704,7 +704,7 @@ span {
   flex-wrap: wrap;
   gap: 30px;
   width: 1170px;
-  left: 142px;
+  left: 96px;
   flex: auto;
 }
 .value-services {
@@ -726,7 +726,7 @@ span {
   font-size: 44px;
   font-weight: 300;
   top: 3500px;
-  left: 142px;
+  left: 96px;
   width: 1012px;
 }
 .block-services-1,
@@ -745,7 +745,7 @@ span {
   justify-content: center;
 
   top: 3620px;
-  left: 358px;
+  left: 312px;
 }
 .clubs-bars-services {
   position: absolute;
@@ -795,9 +795,9 @@ span {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 31px;
   width: 1170px;
-  left: -535px;
+  left: -581px;
   flex: auto;
 }
 
@@ -814,7 +814,7 @@ span {
   font-size: 44px;
   font-weight: 300;
   top: 4320px;
-  left: 142px;
+  left: 95px;
   width: 1012px;
 }
 .block-brands-1,
@@ -842,7 +842,7 @@ span {
   flex-wrap: wrap;
   gap: 30px;
   width: 1170px;
-  left: -215px;
+  left: -261px;
   flex: auto;
 }
 
@@ -851,7 +851,7 @@ span {
 .footer__title {
   position: absolute;
   top: 5880px;
-  left: 140px;
+  left: 94px;
   font-family: "MADE Outer Sans Alt", sans-serif;
 }
 h1 {

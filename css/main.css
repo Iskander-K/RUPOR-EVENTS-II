@@ -14,12 +14,12 @@ body {
   color: #fff;
 }
 /* == SECTION HEADER == */
-.section-outer {
+.section__outer {
   background-color: #0d0d0d;
   height: 100%;
   position: relative;
 }
-.section-inner {
+.section__inner {
   position: relative;
   background-color: #0d0d0d;
   margin: 0 auto;
@@ -55,7 +55,7 @@ span {
   left: 142px;
   color: #fff;
 }
-.header-text {
+.header__text {
   font-family: "Inter", sans-serif;
   font-size: 44px;
   font-weight: 300;
@@ -67,9 +67,9 @@ span {
   left: 142px;
   top: 83px;
 }
-.block-1,
-.block-2,
-.block-3 {
+.block__1,
+.block__2,
+.block__3 {
   position: relative;
   width: 370px;
   height: 370px;
@@ -97,7 +97,7 @@ span {
   font-weight: 400;
   opacity: 30%;
 }
-.blocks-desc {
+.blocks__desc {
   font-family: "Inter", sans-serif;
   font-size: 27.3px;
   font-weight: 400;
@@ -117,7 +117,7 @@ span {
   width: 1440px;
   margin: 0 auto;
 }
-.main-text {
+.main__text {
   font-family: "Inter", sans-serif;
   font-size: 44px;
   font-weight: 300;
@@ -136,11 +136,11 @@ span {
   left: 46px;
   top: 83px;
 }
-.block-4,
-.block-5,
-.block-6,
-.block-7,
-.block-8 {
+.block__4,
+.block__5,
+.block__6,
+.block__7,
+.block__8 {
   position: relative;
   display: flex;
   top: 700px;
@@ -164,26 +164,26 @@ span {
   margin-top: 298px;
   z-index: 7;
 }
-.content-7 {
+.content__7 {
   position: absolute;
   width: 280px;
   height: 229px;
   left: 45px;
   top: 55px;
 }
-.content-8 {
+.content__8 {
   position: absolute;
   width: 248px;
   height: 248px;
   left: 60px;
   top: 63px;
 }
-.city-spb,
-.city-msc,
-.city-other,
-.value-spb,
-.value-msc,
-.value-other {
+.city__spb,
+.city__msc,
+.city__other,
+.value__spb,
+.value__msc,
+.value__other {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -196,8 +196,8 @@ span {
   line-height: 25.78px;
   opacity: 30%;
 }
-/* == BLOCK-4 CONTENT-4 == */
-.content-4 {
+/* == BLOCK 4 CONTENT 4 == */
+.content__4 {
   position: absolute;
   width: 176px;
   height: 176px;
@@ -205,17 +205,17 @@ span {
   top: 97px;
 }
 /* == CITY SPB ==*/
-.city-spb {
+.city__spb {
   position: absolute;
   top: 45px;
   left: 36px;
 }
-.value-spb {
+.value__spb {
   position: absolute;
   top: 75px;
   left: 36px;
 }
-.percent-spb {
+.percent__spb {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -228,17 +228,17 @@ span {
 }
 /* == / CITY SPB / ==*/
 /* == CITY MOSCOW ==*/
-.city-msc {
+.city__msc {
   position: absolute;
   top: 45px;
   right: 55px;
 }
-.value-msc {
+.value__msc {
   position: absolute;
   top: 75px;
   right: 78px;
 }
-.percent-msc {
+.percent__msc {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -252,17 +252,17 @@ span {
 /* == / CITY MOSCOW / ==*/
 
 /* == CITY OTHER ==*/
-.city-other {
+.city__other {
   position: absolute;
   bottom: 99px;
   left: 36px;
 }
-.value-other {
+.value__other {
   position: absolute;
   bottom: 73px;
   left: 36px;
 }
-.percent-other {
+.percent__other {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -276,14 +276,14 @@ span {
 /* == / CITY OTHER / ==*/
 
 /* == BLOCK-5 CONTENT-5 == */
-.lines-bar {
+.lines__bar {
   position: absolute;
   width: 228px;
   height: 107px;
   right: 43px;
   top: 110px;
 }
-.line-msc {
+.line__msc {
   position: absolute;
   width: 209px;
   height: 24px;
@@ -291,7 +291,7 @@ span {
   left: 98px;
   z-index: 2;
 }
-.line-spb {
+.line__spb {
   position: absolute;
   width: 152px;
   height: 24px;
@@ -299,15 +299,15 @@ span {
   left: 98px;
   z-index: 2;
 }
-.axis-line {
+.axis__line {
   position: absolute;
   width: 259px;
   height: 32px;
   left: 86px;
   top: 239px;
 }
-.view-msc,
-.view-spb {
+.view__msc,
+.view__spb {
   font-size: 12px;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
@@ -315,29 +315,29 @@ span {
   color: #000;
   z-index: 5;
 }
-.view-msc {
+.view__msc {
   position: absolute;
   top: 140px;
   right: 69px;
 }
-.view-spb {
+.view__spb {
   position: absolute;
   bottom: 178px;
   right: 126px;
 }
-.label-msc,
-.label-spb {
+.label__msc,
+.label__spb {
   font-size: 14px;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
   color: #fff;
 }
-.label-msc {
+.label__msc {
   position: absolute;
   left: 34px;
   top: 138px;
 }
-.label-spb {
+.label__spb {
   position: absolute;
   left: 34px;
   top: 178px;
@@ -345,42 +345,42 @@ span {
 /* == / BLOCK-5 CONTENT-5 / == */
 
 /* == BLOCK-6 CONTENT-6 == */
-.content-6 {
+.content__6 {
   position: absolute;
   width: 176px;
   height: 176px;
   left: 97px;
   top: 97px;
 }
-.label-m,
-.label-w {
+.label__m,
+.label__w {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
-.m-percent,
-.w-percent {
+.m__percent,
+.w__percent {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   opacity: 30%;
 }
-.label-w {
+.label__w {
   position: absolute;
   left: 43px;
   top: 82px;
 }
-.label-m {
+.label__m {
   position: absolute;
   right: 75px;
   bottom: 117px;
 }
-.w-percent {
+.w__percent {
   position: absolute;
   left: 65px;
   top: 82px;
 }
-.m-percent {
+.m__percent {
   position: absolute;
   right: 25px;
   bottom: 117px;
@@ -390,7 +390,7 @@ span {
 /* == BLOCK-7 CONTENT-7 == */
 
 /* == BLOCK-8 CONTENT-8 == */
-.content-8 {
+.content__8 {
   position: absolute;
   width: 248px;
   height: 248px;
@@ -398,61 +398,63 @@ span {
   top: 63px;
 }
 
-.web-content-8 {
+.web__content__8 {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
-.web-percent-8 {
+.web__percent__8 {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   opacity: 30%;
 }
-.web-social {
+.web__social {
   position: absolute;
   line-height: 25.8px;
   top: 38px;
   left: 28px;
 }
-.social-percent {
+.social__percent {
   position: absolute;
   top: 69px;
   left: 110px;
 }
-.web-search {
+.web__search {
   position: absolute;
   line-height: 25.8px;
   top: 38px;
   right: 60px;
 }
-.search-percent {
+.search__percent {
   position: absolute;
   top: 69px;
   right: 30px;
 }
-.web-other {
+.web__other {
   position: absolute;
   bottom: 117px;
   left: 26px;
 }
-.other-percent {
+.other__percent {
   position: absolute;
   bottom: 91px;
   left: 26px;
 }
 /* == / BLOCK-8 CONTENT-8 / == */
 
-.container-II {
+.container__II {
   position: relative;
   width: 1440px;
   margin: 0 auto;
   top: 700px;
+  list-style: none;
+
 }
 
 
 /* == AUDIENCE INTERESTS ==*/
-.audience-title {
+.audience__title {
   position: absolute;
   font-family: "Inter", sans-serif;
   font-size: 44px;
@@ -461,16 +463,19 @@ span {
   left: 95px;
   margin-bottom: 183px;
 }
+
 .main__btn {
   position: relative;
   display: flex;
   justify-content: space-between;
+  list-style: none;
 
   font-family: "Inter", sans-serif;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 400;
   text-decoration: none;
-  color: #fff;
+  color: #000;
+  background-color: #7BFFC1;
   border: #7bffc143 0.5px solid;
   border-radius: 248px;
   line-height: 35px;
@@ -478,7 +483,7 @@ span {
   gap: 11px;
 }
 
-.interests-list {
+.interests__list {
   margin-top: 263px;
   position: absolute;
   display: flex;
@@ -496,16 +501,22 @@ span {
   margin-top: 516px;
   left: 96px;
   margin-bottom: 183px;
+  list-style: none;
 }
-.party-list {
+
+li {
+  list-style: none;
+}
+
+.party__list__left {
   margin-top: 630px;
   position: absolute;
   display: flex;
+  list-style: none;
 
   left: 96px;
-  list-style: none;
 }
-.main__btn-2 {
+.main__btn__2 {
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -515,7 +526,10 @@ span {
   font-size: 24px;
   font-weight: 400;
   text-decoration: none;
-  color: #fff;
+  list-style: none;
+
+  color: #000;
+  background-color: #7BFFC1;
   border: #7bffc143 0.5px solid;
   border-radius: 248px;
   line-height: 35px;
@@ -524,14 +538,14 @@ span {
   width: 568px;
   margin-bottom: 11px;
 }
-.party-list__right {
+.party__list__right {
   margin-top: 630px;
   position: absolute;
 
   left: 698px;
   list-style: none;
 }
-.reference-search {
+.reference__search {
   display: flex;
   position: absolute;
   font-family: "Roboto", sans-serif;
@@ -542,19 +556,20 @@ span {
   right: 185px;
   margin-bottom: 183px;
   width: 228px;
+  list-style: none;
 }
 .arrow {
   width: 12px;
   height: 12px;
   position: absolute;
-
+ 
   left: 555px;
   bottom: 425px;
 }
 
 /* == OUR RESOURCES / НАШИ РЕСУРСЫ ==*/
 
-.resources-title {
+.resources__title {
   position: absolute;
   font-family: "Inter", sans-serif;
   font-size: 44px;
@@ -563,14 +578,14 @@ span {
   left: 95px;
 }
 
-.resources-list {
+.resources__list {
   margin-top: 1370px;
   position: absolute;
   display: flex;
   text-align: center;
   left: 96px;
 }
-.res-list {
+.res__list {
   display: flex;
   font-family: "Inter", sans-serif;
   font-size: 24px;
@@ -578,7 +593,7 @@ span {
   color: #fff;
   list-style: none;
 }
-.metric-value {
+.metric__value {
   position: relative;
   color: #fff;
   font-size: 16px;
@@ -591,24 +606,39 @@ span {
   margin-right: 35px;
   margin-left: 10px;
 }
-.arrow-image {
+.telegram__left {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 9px;
+  top: 9px;
+}
+.email__left {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 9px;
+  top: 9px;
+}
+
+.arrow__image {
   position: absolute;
   width: 16px;
   height: 16px;
   right: 27px;
   top: 22px;
 }
-.arrow-image-2 {
+.arrow__image__2 {
   position: absolute;
   width: 16px;
   height: 16px;
   right: 27px;
   top: 22px;
 }
-.main-btn-big-1,
-.main-btn-big-2,
-.main-btn-big-3,
-.main-btn-big-4 {
+.main__btn__big__1,
+.main__btn__big__2,
+.main__btn__big__3,
+.main__btn__big__4 {
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -630,7 +660,7 @@ span {
 }
 .left {
   display: flex;
-  margin: auto 0;
+  margin: auto 30px;
   gap: 7px;
 }
 .right {
@@ -639,8 +669,8 @@ span {
   gap: 5px;
   margin: auto -5px;
 }
-.right-1,
-.right-2 {
+.right__1,
+.right__2 {
   position: absolute;
   font-size: 15px;
   display: flex;
@@ -648,7 +678,7 @@ span {
   margin: auto 0;
   right: 60px;
 }
-.metric-value-r {
+.metric__value__r {
   position: relative;
   color: #fff;
   font-size: 16px;
@@ -662,12 +692,12 @@ span {
 }
 /* == POSSIBILITIES / ВОЗМОЖНОСТИ == */
 
-.container-possibilities {
+.container__possibilities {
   position: relative;
   display: flex;
   flex-direction: row;
 }
-.possibilities-title {
+.possibilities__title {
   position: absolute;
   font-family: "Inter", sans-serif;
   font-size: 44px;
@@ -676,12 +706,12 @@ span {
   left: 96px;
   width: 1012px;
 }
-.block-announcement-1,
-.block-announcement-2,
-.block-announcement-3,
-.block-announcement-4,
-.block-announcement-5,
-.block-announcement-6 {
+.block__announcement__1,
+.block__announcement__2,
+.block__announcement__3,
+.block__announcement__4,
+.block__announcement__5,
+.block__announcement__6 {
   position: relative;
   width: 370px;
   height: 289px;
@@ -707,7 +737,7 @@ span {
   left: 96px;
   flex: auto;
 }
-.value-services {
+.value__services {
   font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 300;
@@ -715,12 +745,12 @@ span {
 
 /* == FOR CLUBS & BARS == */
 
-.container-services {
+.container__services {
   position: absolute;
   display: flex;
   flex-direction: row;
 }
-.clubs-bars-title {
+.clubs__bars__title {
   position: relative;
   font-family: "Inter", sans-serif;
   font-size: 44px;
@@ -729,9 +759,9 @@ span {
   left: 96px;
   width: 1012px;
 }
-.block-services-1,
-.block-services-2,
-.block-services-3 {
+.block__services__1,
+.block__services__2,
+.block__services__3 {
   position: relative;
   width: 370px;
   height: 289px;
@@ -747,7 +777,7 @@ span {
   top: 3620px;
   left: 312px;
 }
-.clubs-bars-services {
+.clubs__bars__services {
   position: absolute;
   display: flex;
   flex-direction: row;
@@ -757,7 +787,7 @@ span {
   left: -215px;
   flex: auto;
 }
-.value-services {
+.value__services {
   font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 300;
@@ -765,16 +795,16 @@ span {
 
 /* == CONTAINER SERVICES SMALL == */
 
-.container-services {
+.container__services {
   position: absolute;
   display: flex;
   flex-direction: row;
 }
 
-.block-services-4,
-.block-services-5,
-.block-services-6,
-.block-services-7 {
+.block__services__4,
+.block__services__5,
+.block__services__6,
+.block__services__7 {
   position: relative;
   width: 269px;
   height: 309px;
@@ -790,7 +820,7 @@ span {
   top: 3938px;
   left: 678px;
 }
-.clubs-bars-services-sm {
+.clubs__bars__services__sm {
   position: absolute;
   display: flex;
   flex-direction: row;
@@ -803,12 +833,12 @@ span {
 
 /* == OPPORTUNITIES FOR BRANDS == */
 
-.container-brands {
+.container__brands {
   position: relative;
   display: flex;
   flex-direction: row;
 }
-.brands-title {
+.brands__title {
   position: relative;
   font-family: "Inter", sans-serif;
   font-size: 44px;
@@ -817,9 +847,9 @@ span {
   left: 95px;
   width: 1012px;
 }
-.block-brands-1,
-.block-brands-2,
-.block-brands-3 {
+.block__brands__1,
+.block__brands__2,
+.block__brands__3 {
   position: relative;
   width: 370px;
   height: 568px;
@@ -835,7 +865,7 @@ span {
   top: 4450px;
   left: 358px;
 }
-.brands-services {
+.brands__services {
   position: absolute;
   display: flex;
   flex-direction: row;

@@ -29,6 +29,41 @@ img {
   position: relative;
   width: 100%;
 }
+.gradient {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  opacity: 60%;
+}
+.eclipse__18 {
+  position: absolute;
+  width: 1087px;
+  height: 1058px;
+  top: 700px;
+  left: 0;
+  z-index: 10;
+  opacity: 80%;
+}
+.polygon {
+  position: absolute;
+  width: 789px;
+  height: 628px;
+  top: 817px;
+  right: 0;
+  z-index: 10;
+  opacity: 80%;
+}
+.eclipse__yellow {
+  position: absolute;
+  width: 1848px;
+  height: 1848px;
+  top: 6129px;
+  left: 0;
+  z-index: 10;
+  opacity: 50%;
+}
 
 .header__title {
   position: absolute;
@@ -80,8 +115,9 @@ span {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-right: 30px;
+  margin-right: 26px;
   margin-bottom: 300px;
+
 }
 .value,
 .metric {
@@ -459,7 +495,7 @@ span {
   font-family: "Inter", sans-serif;
   font-size: 44px;
   font-weight: 300;
-  margin-top: 157px;
+  margin-top: 177px;
   left: 95px;
   margin-bottom: 183px;
 }
@@ -513,7 +549,6 @@ li {
   position: absolute;
   display: flex;
   list-style: none;
-
   left: 96px;
 }
 .main__btn__2 {
@@ -530,7 +565,7 @@ li {
 
   color: #000;
   background-color: #7BFFC1;
-  border: #7bffc143 0.5px solid;
+  border: 0.5px solid;
   border-radius: 248px;
   line-height: 35px;
   padding: 11px 30px;
@@ -541,7 +576,6 @@ li {
 .party__list__right {
   margin-top: 630px;
   position: absolute;
-
   left: 698px;
   list-style: none;
 }
@@ -610,15 +644,15 @@ li {
   position: absolute;
   width: 40px;
   height: 40px;
-  left: 9px;
-  top: 9px;
+  left: 9.78px;
+  top: 8.5px;
 }
 .email__left {
   position: absolute;
   width: 40px;
   height: 40px;
-  left: 9px;
-  top: 9px;
+  left: 9.78px;
+  top: 8.5px;
 }
 
 .arrow__image {
@@ -800,7 +834,6 @@ li {
   display: flex;
   flex-direction: row;
 }
-
 .block__services__4,
 .block__services__5,
 .block__services__6,
